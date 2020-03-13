@@ -17,6 +17,8 @@
 
 hapi-docs is perhaps the best and most modern <em>API Documentation Generator</em> out there. From your code blocks to description texts, you simply type everything in Markdown. Then all you need to do is to enjoy a blazing fast single-page responsive documentation, which smartly supports linkability, Syntax highlighting, RTL languages, and perfectionist eyes. hapi-docs is an open-source library brought to you by [SurveyLegend®](https://www.surveylegend.com/).
 
+This is a fork of Hapi Docs (since the original appears to have been abandoned for more than a year now) which is maintained by Beyonk.
+
 ## Features
 
 -   **Intuitive design** — Inspired by [Stripe’s](https://stripe.com/docs/api) API docs. The description of your API resides on the left part of the documentation, while all of the code examples reside on the right. Of course the layout is fully responsive and flawlessly adapts to tablets and phones.
@@ -44,7 +46,7 @@ hapi-docs is perhaps the best and most modern <em>API Documentation Generator</e
 You can install the package via yarn:
 
 ```bash
-$ yarn add @surveylegend/hapi-docs
+$ yarn add @beyonk/hapi-docs
 ```
 
 ## Usage
@@ -53,7 +55,7 @@ $ yarn add @surveylegend/hapi-docs
 import Hapi from 'hapi'
 import Inert from 'inert'
 import Joi from '@hapi/joi'
-import HapiDocs from '@surveylegend/hapi-docs'
+import HapiDocs from '@beyonk/hapi-docs'
 import { version } from './package'
 
 const options = {
@@ -162,6 +164,10 @@ Developed and designed by:
 -   [Henrik Ruscon](https://github.com/henrikdahl)
 -   [Robert Michalski](https://github.com/robman87)
 -   [Kiarokh Moattar](https://github.com/Kiarokh)
+
+Maintained by:
+
+-   [Antony Jones](https://github.com/antony)
 
 hapi-docs is inspired by [hapi-swagger](https://github.com/glennjones/hapi-swagger), [lout](https://github.com/hapijs/lout), and [Stripe’s](https://stripe.com/docs/api) API docs; and fully sponsored by [SurveyLegend®](https://www.surveylegend.com/).
 
