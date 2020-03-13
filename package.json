@@ -1,6 +1,6 @@
 {
     "name": "@beyonk/hapi-docs",
-    "version": "0.3.21",
+    "version": "0.4.0",
     "description": "Beatiful API documentation generator for Hapi using Vue",
     "author": "Beyonk <info@beyonk.com> (https://github.com/beyonk-adventures)",
     "contributors": [
